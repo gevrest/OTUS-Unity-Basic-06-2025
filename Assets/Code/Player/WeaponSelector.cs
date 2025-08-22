@@ -18,5 +18,10 @@ namespace Game
         {
 
         }
+
+        public void ReleaseTrigger()
+        {
+            _currentWeapon.ReleaseTrigger();
+        }
     }
 }
